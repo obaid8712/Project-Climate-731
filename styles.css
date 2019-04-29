@@ -4,41 +4,52 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
+  color: #5191fd;
 }
 
 h2 {
   text-align: center;
   
+  color: #5191fd;
   font-size: 20px;
 }
-img {
+img {  
   
+  float: inherit; 
   
+  vertical-align: middle;
   padding: 10px;
-  margin-right: 10px;
+  
+  /* margin-left: 80px;
+  
+    margin-right: 10px;
   margin-left: 10px;
-  /* 
   align-self: auto;
   align-items: center;
   */
 }
 /* Giving our navbar some padding and a background color */
 .navbar {
-  padding: 10px;
-  background: #5191fd;
+  height: 54px;
+  padding: 5px;
+  background: #979496;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
+
+.navbar li1 {
   display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  text-align: center;
+  width: 90px;
+  height: 54px;
+  padding: 5px;
+  
+  margin-left: 40px;
   cursor: pointer;
-  background: #fff;
+  background: #5191fd;
   border-radius: 3px;
-}
+} 
 
 /* Getting rid of the default link styles here */
 .navbar li a {
@@ -48,7 +59,7 @@ img {
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
-  height: 200px;
+  height: 150px;
   padding-top: 20px;
   background: #cdcdcd;
 }
